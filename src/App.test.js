@@ -8,5 +8,5 @@ test('renders learn react link', () => {
   console.log(1)
   expect(linkElement).toBeInTheDocument();
   console.log(1)
-  console.log(1)
+  
 });
