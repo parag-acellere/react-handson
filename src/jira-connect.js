@@ -2,7 +2,6 @@ function test() {
  test_message = "this is test message";
  console.log(test_message);
  test_lang = "java";
- console.log("introducing code issue");
  switch(test_lang) {
 	case "java": console.log("this is java");
                      break;
@@ -26,6 +25,7 @@ function test() {
 }
 
 function jiraCodeissue() {
+	let abc;
 	while (typeof x) {
 		doSomethingForever();
 	}
