@@ -26,7 +26,6 @@ function test() {
 
 function jiraCodeissue() {
 	let abc;
-	let pqr;
 	while (typeof x) {
 		doSomethingForever();
 	}
