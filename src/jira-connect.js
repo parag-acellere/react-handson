@@ -3,6 +3,7 @@ function test() {
  test_lang = "java";
  switch(test_lang) {
 	case "java": console.log("this is java");
+	console.log(1)
                      break;
 	case "script":
 			switch(lang_type) {
