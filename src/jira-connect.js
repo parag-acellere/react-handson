@@ -1,7 +1,7 @@
 function test() {
  test_message = "this is test message";
  console.log(test_message);
- console.log();
+ console.log(test_message);
  test_lang = "java";
  switch(test_lang) {
 	case "java": console.log("this is java");
