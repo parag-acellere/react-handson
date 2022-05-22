@@ -17,6 +17,8 @@ ReactDOM.render(
 reportWebVitals();
 function abc(){
   console.log(1)
+
+  console.log(1)
 }
 function abc2(){
   console.log("2")
