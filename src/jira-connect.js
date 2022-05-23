@@ -27,6 +27,7 @@ function test() {
 
 	
 	console.log();
+	console.log();
 }
 
 function jiraCodeissue() {
