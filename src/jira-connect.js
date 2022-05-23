@@ -25,7 +25,6 @@ function test() {
 	console.log("out of switch");
 	console.log("out of switch1");
 
-	console.log(1);
 	
 	console.log(1);
 }
