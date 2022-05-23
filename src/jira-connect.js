@@ -26,6 +26,7 @@ function test() {
 	console.log("out of switch1");
 
 	
+	console.log();
 }
 
 function jiraCodeissue() {
