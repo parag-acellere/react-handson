@@ -22,7 +22,6 @@ function test() {
 			break;
             default : console.log("this is default");
 			}
-			console.log(1);
 	console.log("out of switch");
 	console.log("out of switch1");
 
