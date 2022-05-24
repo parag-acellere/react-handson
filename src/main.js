@@ -5,7 +5,10 @@
 if (window.location.host != "127.0.0.1:3000" && window.location.protocol != "https:") {
   window.location.protocol = "https:" + window.location.href.substring(window.location.protocol.length);
 }
-
+function abc(){
+let b;
+  console.log(1);
+}
 
 // vars
 var input;
