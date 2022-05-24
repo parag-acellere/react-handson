@@ -8,6 +8,9 @@ if (window.location.host != "127.0.0.1:3000" && window.location.protocol != "htt
 function abc(){
 let b;
   console.log(1);
+  if(1==2){
+  console.log(true)
+}
 }
 
 // vars
