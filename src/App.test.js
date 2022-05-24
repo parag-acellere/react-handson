@@ -8,5 +8,4 @@ test('renders learn react link', () => {
 });
 function abc(){
 console.log(1)
-console.log(1)
 }
