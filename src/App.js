@@ -23,3 +23,6 @@ function App() {
 }
 
 export default App;
+function abc(){
+console.log(1)
+}
