@@ -31,6 +31,7 @@ public class Category extends Vehicle implements NewInterface {
         
         System.out.println("text added");
         int m_val = 42;
+        System.out.println("text added");
     }
 
     public boolean getCategoryId() {
