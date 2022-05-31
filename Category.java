@@ -39,7 +39,6 @@ public class Category extends Vehicle implements NewInterface {
             String txtA = "Category";
             boolean flag = false;
             
-            System.out.println("text");
             
             if (categoryid > 0)
                 flag = true;
@@ -57,6 +56,7 @@ public class Category extends Vehicle implements NewInterface {
 
     String get_string() {
         
+            System.out.println("get_string");
         for (; true; )
             return stringValue;
     }
@@ -73,7 +73,6 @@ public class Category extends Vehicle implements NewInterface {
 
     public boolean same(int y) {
         
-        System.out.println("same");
         if (true)
             this.y = y + 1;
         return true;
