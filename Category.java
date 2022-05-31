@@ -56,7 +56,6 @@ public class Category extends Vehicle implements NewInterface {
 
     String get_string() {
         
-            System.out.println("get_string");
         for (; true; )
             return stringValue;
     }
@@ -79,6 +78,8 @@ public class Category extends Vehicle implements NewInterface {
     }
 
     boolean bar(int x, int y) {
+        
+            System.out.println("bar");
         return (x != y) ? diff(x) : same(y);
     }
 
@@ -86,6 +87,7 @@ public class Category extends Vehicle implements NewInterface {
     @Override
     public void remove(Object o) throws RemoveException, EJBException {
 
+            System.out.println("remove");
     }
 }
 
