@@ -80,7 +80,6 @@ public class Category extends Vehicle implements NewInterface {
     boolean bar(int x, int y) {
         
             System.out.println("bar");
-            System.out.println("bar 2");
         return (x != y) ? diff(x) : same(y);
     }
 
