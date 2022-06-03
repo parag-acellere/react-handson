@@ -1,4 +1,4 @@
-Class Vulnerability {
+Class Vulnerabilit {
 public void foo() {
     // Non-compliant code
         try {            
