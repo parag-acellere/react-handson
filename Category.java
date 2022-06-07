@@ -24,7 +24,6 @@ public class Category extends Vehicle implements NewInterface {
     public void set(String category){
         System.out.println("text added");
         this.category=category;
-        System.out.println("set added");
     }
 
     private int m_variable;
