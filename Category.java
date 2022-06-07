@@ -43,7 +43,6 @@ public class Category extends Vehicle implements NewInterface {
             if (categoryid > 0)
                 flag = true;
             
-            System.out.println("text");
             return flag;
         } catch (IllegalArgumentException e) {
             throw e;
