@@ -66,7 +66,7 @@ public class Category extends Vehicle implements NewInterface {
             this.x = x + 1;
         else
             this.x = x - 1;
-
+System.out.println("1");System.out.println("1");
         return false;
     }
 
