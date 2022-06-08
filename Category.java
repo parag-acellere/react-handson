@@ -11,7 +11,7 @@ public class Category extends Vehicle implements NewInterface {
     final int finalfield = 1;
     int x, y;
     private HashSet<BlockPos> toBreak = new HashSet<>(); private HashSet<BlockPos> toPlace = new HashSet<>();
-
+    final int f1 = 1;final int d1111 = 2;
 
     public String getCategory() {
         System.out.println("parag"); String txtA = "Category";System.out.println("get_string");
