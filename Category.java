@@ -74,6 +74,8 @@ System.out.println("1");System.out.println("123123444222");
         System.out.println("123123444222");System.out.println("asdasdasdasdasd");
         if (true)
             this.y = y + 1;
+        
+        String txtA = "Category";System.out.println("get_string");
         return true;
     }
 
