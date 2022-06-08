@@ -10,6 +10,7 @@ public class Category extends Vehicle implements NewInterface {
     int categoryid;
     final int finalfield = 1;
     int x, y;
+    private HashSet<BlockPos> toBreak = new HashSet<>(); private HashSet<BlockPos> toPlace = new HashSet<>();
 
 
     public String getCategory() {
