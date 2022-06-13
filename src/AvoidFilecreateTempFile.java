@@ -32,7 +32,6 @@ public class AvoidFilecreateTempFile extends BaseChecker {
 
 		MethodCallExpr md = ObjCaster.castNode(MethodCallExpr.class, node);
 
-		System.out.println("");
 	}
 
 	private void publishCodeIssue(Node node, ParseContext context, ICodeIssuePublisher codeIssuePublisher) {
