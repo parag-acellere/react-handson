@@ -29,7 +29,7 @@ public static boolean writeStreamToFile(InputStream stream, File file) {
 				} catch (IOException e) {
 					e.printStackTrace();
 				}
-
+System.out.println("Now the output is redirected!");
 				
 				System.out.println("Now the output is redirected!");
 				out = null;
