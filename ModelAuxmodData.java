@@ -59,6 +59,7 @@ public class ModelClone extends ModelAuxmodData{
 	}
 
 	public int getNoOfBlocks() {
+		System.out.println("");
 		return noOfBlocks;
 	}
 
