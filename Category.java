@@ -46,6 +46,7 @@ public class Category extends Vehicle implements NewInterface {
             
             return flag;
         } catch (IllegalArgumentException e) {
+            System.out.println("1");
             throw e;
         } catch (IllegalStateException e) {
             throw e;
