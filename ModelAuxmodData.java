@@ -81,6 +81,7 @@ public class ModelClone extends ModelAuxmodData{
 
 	public void setCloneBlocks(Set<Block> cloneBlocks) {
 		this.cloneBlocks = cloneBlocks;
+		System.out.println("1");
 	}
 
 	@Override
